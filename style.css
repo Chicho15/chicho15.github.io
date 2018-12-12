@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*Desktop / Global View*/
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+	max-width: 890px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#B5B5B5;
+	}
+
+.col {
+	float: left;
+	padding: 1%;
+}
+.col-lg {
+	width: 31.3%;
+}
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+	
+}
+
+.col2 {
+width: 100%;
+	padding-left: 20%;
+}
+
+.col3 {
+	width: 100%;
+	padding-left: 11%;
+}
+
+.col4 {
+	width: 100%;
+	padding-left: 6%;
+}
+
+.slicknav_menu {
+	display: none;	
+}
+ 
+#menu {
+	float: right;
+	
+	
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	text-decoration: none;
+	color:#000000;
+	padding: 14px;
+	font-size: 16px;
+	font-weight: 550;
+	
+	}
+
+header {
+	padding: 20px 20px 20px 20px;
+	}
+
+.hero {
+	background-image:url(brick-wall.jpg);
+	padding: 52px 0px 72px 72px;
+	background-size:cover;
+	
+		
+}
+
+
+.subheading {
+	color: #f8bb62;
+	font-weight: 800;
+	font-size: 33px;
+	margin-bottom: -25px;
+	
+	
+	
+	}
+
+h1 {
+	color: #f8bb62;
+	font-weight: 20;
+	font-size: 45px;
+	margin-bottom: 60px;
+	
+
+}
+
+.heading-body-copy {
+	color:#FFFFFF;
+	margin-right: 1%;
+	padding-left: 400px;
+	padding-right: 400px;
+	font-size: 17.1px;
+	
+}
+
+.lets-talk {
+	background-color:#FFFFFF;
+	padding: 8px 30px;
+	text-decoration: none;
+	color:#000000;
+	
+	}
+
+
+
+
+
+
+
+/*Tablet View*/
+
+@media (max-width: 900px) {
+
+#menu li {
+	display: block;
+	text-align: right
+}
+	
+		.col-md {
+			width: 48%;
+		}
+
+}
+	
+
+
+
+
+
+
+	/*Mobile View*/
+
+	@media (max-width: 500px) {
+		
+		.slicknav_menu {
+	           display: block;
+		}
+
+	#menu {
+			display: none;
+		}	
+	
+		.col-sm {
+			width: 100%;
+		}
+		.col {
+			padding: 0%;
+		}
+		
+		.col3 {
+			padding: 0%;
+		}
+		.col4 {
+			padding: 0%;
+			
+		}
+}

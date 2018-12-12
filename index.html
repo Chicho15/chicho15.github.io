@@ -1,52 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>Project: Event invite</title>
-        <style>
-            .invited {
-                background-color: rgb(67, 201, 34);
-            }
-            #alessandro-party {
-                color: rgb(227, 16, 27);
-            }
-            .pic-1 {
-                float: right;
-                width: 200px;
-                
-            }
-            #details {
-                color: rgb(121, 199, 26);
-                font-style: italic;
-                font-family:sans-serif;
-                
-            }
-           #rsvp {
-               color: rgb(17, 48, 245);
-           }
-           
-        </style>
-    </head>
-    <body>
-        
-        <h1 class= "invited"> You're invited!</h1>
-        <h2 id= "alessandro-party">To Alessandro Birthday Party!</h2>
-        <img class="pic-1" src="https://www.kasandbox.org/programming-images/avatars/avatar-team.png" alt="pic of friends">
-        <p>
-        Come along and celebrate Alessandro's 10th birthday!
-        </p>
-       <p id ="details"><strong>DETAILS:</strong></p>
-         <ul>
-            <li><strong> PLACE:</strong> V&A Waterfront Arena</li>
-            <li><strong>ADDRESS:</strong> 177 Kimberly Street, Capetown</LI>
-       <li><strong>WHEN:</strong> 9 October 2018 </li>
-       
-       <li><strong>TIME:</strong> 1pm - 5pm</li>
-       </ul>
-       
-       <p id="rsvp">RSVP by 5 October!!!</p>
-       <p> CONTACT MARIANA: <strong>515-601-9011</strong></p>
-       <p><em><strong>Let us make this party one to remember!!!</strong></em></p>
-       
-    </body>
+<head>
+<meta charset="UTF-8">
+<title>Alessandro Venditti</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="slicknav.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+	</head>
+	
+
+<body>
+
+	<header>
+	
+		<img src="Original;logo.png" alt="AlessandroVenditti.com" width="220px">
+		
+		
+        <ul id="menu">
+			<li><a href="about-me.html">About Me</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="contact-me.html">Contact Me</a></li>
+		
+		</ul>	
+	
+	</header>
+	
+	
+	
+	
+	
+	<main> 
+	
+	<div class="row">
+		<div class="col">
+		    <div class="hero">
+			<p class="subheading">HEY THERE, I AM</p>
+			<h1>ALESSANDRO</h1>
+			<p class="heading-body-copy"></p>
+			<a href="#" class="lets-talk">LET'S TALK</a>
+			
+				
+				
+			</div>
+	    </div>
+	
+		</div>
+		
+	<div class="row">
+		<div class="col col-lg col-md col-sm"><img src="images2/Sandton-tree.jpg" alt="Sandton Tree Image"></div>
+		<div class="col col-lg col-md col-sm"><img src="images2/Photo-shoot.jpg" alt="Photoshoot Soccer Image"></div>
+		<div class="col col-lg col-md col-sm"><img src="images2/Giving-back.jpg" alt="Giving Back Image"></div>
+		<div class="col col-lg col-md col-sm"><img src="images2/Lion.jpg" alt="Lion Image"></div>
+		<div class="col col-lg col-md col-sm"><img src="images2/Untitled.jpg" alt="Apire To Make A Difference Image"></div>
+		<div class="col col-lg col-md col-sm"><img src="images2/holding-ball.jpg" alt="Holding Ball Image"></div>
+	</div> 
+		
+	</main>
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <script src="jquery-1.11.3.min.js"></script>
+     <script src="jquery.slicknav.js"></script>	
+	 <script>
+		$(function(){
+			$('#menu').slicknav();
+		});
+	 </script>
+	
+</body>
 </html>
